@@ -67,11 +67,7 @@ body, html {
 .empty {
   font-style: italic;
 }
-.preview {
-  z-index: 1;
-}
 .preview-container {
-  z-index: 2;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -80,11 +76,7 @@ body, html {
   position: absolute;
   overflow: hidden;
   width: 20%;
-  bottom: 0;
 }
 .views {
   display: block;
-}
-iframe {
-  z-index: 3;
 }
